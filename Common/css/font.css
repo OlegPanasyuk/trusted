@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/Common/fonts/Montserrat-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PTSerif';
+  src: url('/Common/fonts/PT_Serif-Web-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}

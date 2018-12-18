@@ -1,0 +1,16 @@
+@import url('/Common/css/color.css');
+@import url('/Common/css/font.css');
+
+.body {
+  font-family: 'PTSerif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-color: var(--bgcolor-promary);
+  color: var(--text-color-dark);
+  display: grid;
+  grid-template-columns: 1fr 1020px 1fr;
+  grid-template-rows: 675px 490px 120px 540px 700px 180px;
+  grid-gap: 0;
+  margin: 0;
+}
+
