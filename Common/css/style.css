@@ -1,5 +1,11 @@
 @import url('/Common/css/color.css');
 @import url('/Common/css/font.css');
+@import url('/Modules/pageMain/header-fon/css/header-fon.css');
+@import url('/Modules/pageMain/header/header.css');
+@import url('/Modules/pageMain/menu/menu.css');
+@import url('/Modules/pageMain/page/page.css');
+@import url('/Modules/pageMain/footer/css/footer.css');
+@import url('/Modules/pageMain/form-request-quote/css/form-request-quote.css');
 
 .body {
   font-family: 'PTSerif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,8 +14,8 @@
   background-color: var(--bgcolor-promary);
   color: var(--text-color-dark);
   display: grid;
-  grid-template-columns: 1fr 1020px 1fr;
-  grid-template-rows: 675px 490px 120px 540px 700px 180px;
+  grid-template-columns: 1fr 620px 400px 1fr;
+  grid-template-rows: 125px 520px 490px 120px 540px 700px 180px;
   grid-gap: 0;
   margin: 0;
 }

@@ -1,0 +1,39 @@
+.page {
+
+}
+
+.page_head {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  color: var(--text-color-light);
+}
+
+.page_services {
+  grid-column: 2  / span 2;
+  grid-row: 3;
+}
+
+.page_about-us{
+  grid-column: 2  / span 2;
+  grid-row: 4;
+}
+
+.page_pricing {
+  grid-column: 2 / span 2;
+  grid-row: 5;
+}
+
+.form-wrapper {
+  grid-column: 3 / span 1;
+  grid-row: 2;
+}
+
+.page_testimonial {
+  grid-column: 2 / span 1;
+  grid-row: 6;
+}
+
+.page_gallery {
+  grid-column: 3 / span 1;
+  grid-row: 6;
+}

@@ -1,0 +1,6 @@
+.footer {
+  grid-column: 2 / span 2;
+  grid-row: 7;
+  color: var(--text-color-light);
+  background-color: var(--bgcolor-third);
+}
