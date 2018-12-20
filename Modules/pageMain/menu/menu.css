@@ -1,10 +1,33 @@
 .menu {
+  font-family: 'Montserrat';
   grid-column: 2;
   grid-row: 1;
+  display: flex;
+  align-items: center;
 }
 
 .menu-box {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin:0;
+  padding:0;
+  position: relative;
+  right: -12px;
 }
+
+.menu-box__item {
+  box-sizing: border-box;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.menu-box__item:hover {
+  background-color: var(--acent-color);
+  
+}
+

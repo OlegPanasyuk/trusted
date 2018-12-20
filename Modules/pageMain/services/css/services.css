@@ -1,0 +1,20 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  height: 328px;
+  padding: 25px 0 25px 25px;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.services__text {
+  text-align: center;
+  width: 145px;
+  margin-top: 45px;
+}

@@ -1,7 +1,7 @@
 .header-fon {
   grid-column: 1 / span 4;
   grid-row: 1 / span 2;
-  
+  z-index: -1;
   background-color: var(--bgcolor-third);
 }
 

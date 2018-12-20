@@ -2,10 +2,19 @@
 
 }
 
+.page__content {
+  line-height: 1.4;
+  font-size: 1.25em;
+  
+}
+
 .page_head {
   grid-column: 2 / span 1;
   grid-row: 2;
   color: var(--text-color-light);
+  padding: 0 100px 0 25px;
+  position: relative;
+  top: 80px;
 }
 
 .page_services {
@@ -14,8 +23,10 @@
 }
 
 .page_about-us{
-  grid-column: 2  / span 2;
+  grid-column: 1  / span 4;
   grid-row: 4;
+  display: grid;
+  grid-template: 1fr / 1fr 751px 269px 1fr;
 }
 
 .page_pricing {
@@ -36,4 +47,31 @@
 .page_gallery {
   grid-column: 3 / span 1;
   grid-row: 6;
+}
+
+.page__header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3.125em;
+  margin-top: 30px;
+  margin-left: 25px; 
+}
+
+.page_about-us .page__content {
+  grid-column: 2;
+  grid-row: 1;
+  padding:  25px;
+}
+
+.Rounded_Rectangle_6 {
+  border-radius: 5px;
+  background-color: rgb(19, 14, 39);
+  position: absolute;
+  left: 826px;
+  top: 1201px;
+  width: 269px;
+  height: 64px;
+  z-index: 40;
 }

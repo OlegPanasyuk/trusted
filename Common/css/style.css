@@ -6,12 +6,16 @@
 @import url('/Modules/pageMain/page/page.css');
 @import url('/Modules/pageMain/footer/css/footer.css');
 @import url('/Modules/pageMain/form-request-quote/css/form-request-quote.css');
+@import url('/Modules/pageMain/logo/css/logo.css');
+@import url('/Modules/pageMain/main-slogan/css/main-slogan.css');
+@import url('/Modules/pageMain/services/css/services.css');
+
 
 .body {
   font-family: 'PTSerif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
-  background-color: var(--bgcolor-promary);
+  background-color: var(--bgcolor-primary);
   color: var(--text-color-dark);
   display: grid;
   grid-template-columns: 1fr 620px 400px 1fr;

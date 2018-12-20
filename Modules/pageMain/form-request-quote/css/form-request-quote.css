@@ -1,3 +1,109 @@
 .form-request-quote {
+  display: flex;
+  position: relative;
+  top: 80px;
+  flex-direction: column;
+  height: 520px;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--acent-color);
+  border-radius: 5px;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 25px;
   color: var(--text-color-light);
+}
+
+.form-request-quote__caption {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.375em;
+  margin-top: 10px;
+}
+
+.form-request-quote__input {
+  height: 57px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-request-quote__input_text {
+  font-size: 1.25em;
+  padding: 11px 15px 11px 15px;
+  box-sizing: border-box;
+}
+
+.form-request-quote__input-box {
+  display: flex;
+  height: 30px;
+  width: 100%;
+}
+
+.form-request-quote__input_checkbox:checked,
+.form-request-quote__input_checkbox:not(:checked) {
+  opacity: 0;
+  width:0;
+}
+
+.form-request-quote__input_checkbox:checked + .form-request-quote__input-label,
+.form-request-quote__input_checkbox:not(:checked) + .form-request-quote__input-label {
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.form-request-quote__input_checkbox:checked + .form-request-quote__input-label::before,
+.form-request-quote__input_checkbox:not(:checked) + .form-request-quote__input-label::before {
+  content: ' ';
+  
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  border-radius: 5px;
+  left: 0px;
+  top: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.form-request-quote__input_checkbox:checked + .form-request-quote__input-label::after,
+.form-request-quote__input_checkbox:not(:checked) + .form-request-quote__input-label::after {
+  content: ' ';
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  left: 4px;
+  top: 2px;
+  border-bottom: 3px solid #555;
+  border-right: 3px solid #555;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.form-request-quote__input_checkbox:not(:checked) + .form-request-quote__input-label::after {
+  opacity: 0;
+}
+
+
+.form-request-quote__input_checkbox:checked + .form-request-quote__input-label::after {
+  opacity: 1;
+}
+
+.form-request-quote__button {
+  width: 100%;
+  height: 57px;
+  border-radius: 5px;
+  background-color:var(--bgcolor-third);
+  border: none;
+  color : var(--text-color-light);
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1.475em;
 }

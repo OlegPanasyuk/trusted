@@ -6,8 +6,29 @@
 }
 
 @font-face {
+  font-family: 'Montserrat';
+  src: url('/Common/fonts/Montserrat-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
   font-family: 'PTSerif';
   src: url('/Common/fonts/PT_Serif-Web-Regular.ttf');
   font-style: normal;
   font-weight: normal;
+}
+
+@font-face {
+  font-family: 'QuiteChocolatey';
+  src: url('/Common/fonts/Quite\ Chocolatey.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Couture';
+  src: url('/Common/fonts/COUTURE-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
 }

@@ -1,0 +1,11 @@
+.main-slogan {
+  font-family: 'Montserrat';
+  font-size: 5.625em;
+  font-weight: bold;
+  line-height: 0.889;
+  margin: 0 0px 40px 0;
+}
+
+.main-slogan__color-text_accent {
+  color: var(--acent-color);
+}
