@@ -1,6 +1,33 @@
 .footer {
   grid-column: 1 / span 4;
   grid-row: 7;
+  display: grid;
+  grid-template: 1fr / 1fr 1020px 1fr;
   color: var(--text-color-light);
   background-color: var(--bgcolor-third);
+}
+
+.footer__text {
+  display: flex;
+  grid-column: 2;
+  grid-row:1;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.1;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.All_Rights_Reserved____2016_____Designed_with_l {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  text-align: left;
+  position: absolute;
+  left: 86.437px;
+  top: 2616px;
+  width: 540px;
+  height: 19px;
+  z-index: 113;
 }

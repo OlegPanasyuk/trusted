@@ -1,0 +1,12 @@
+.link {
+  font-family: 'Montserrat';
+}
+
+.link__text:visited, .link__text:hover, .link__text:active, .link__text:link {
+  color: var(--text-color-dark);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.25em;
+  border-bottom: 1px solid var(--text-color-dark);
+}

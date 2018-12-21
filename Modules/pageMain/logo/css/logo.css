@@ -6,3 +6,11 @@
   position: relative;
  
 }
+
+.logo_footer {
+  font-size: 4em;
+}
+
+.logo_acent {
+  color: var(--acent-color);
+}

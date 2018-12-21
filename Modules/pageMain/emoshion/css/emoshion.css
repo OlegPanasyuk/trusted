@@ -1,0 +1,47 @@
+.emoshion {
+  display: grid;
+  grid-template: 25px .7fr .3fr 25px/ 25px 1fr 55px 55px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.emoshion__avatar {
+  grid-column: 3/ span 2;
+  grid-row: 2 / span 2;
+}
+
+.emoshion__text {
+  grid-column: 2/ span 1;
+  grid-row: 2;
+  font-size: 1.25em;
+  line-height: 1.4;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.empshion__author {
+  grid-column: 2/ span 1;
+  grid-row: 3;
+  font-size: 1.25em;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.emotion__fon {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 4;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.emotion__fon_acent {
+  background-color: var(--acent-color);
+}
+
+.emoshion__text_acent {
+  color: var(--text-color-light);
+}

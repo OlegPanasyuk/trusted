@@ -1,0 +1,28 @@
+.button {
+  border-radius: 5px;
+  height: 64px;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.325em;
+  font-family: 'Montserrat';
+  cursor: pointer; 
+}
+
+.button_dark {
+  color: var(--text-color-light);
+  background: var(--bgcolor-third);
+}
+
+.button_about-us {
+  grid-column:3;
+  grid-row:1;
+  margin: 25px 0 25px 0px;
+  align-self: center;
+}
+
+.button_acent{
+  color: var(--text-color-dark);
+  background: var(--acent-color);
+}
+

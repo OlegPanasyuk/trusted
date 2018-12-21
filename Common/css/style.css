@@ -9,6 +9,14 @@
 @import url('/Modules/pageMain/logo/css/logo.css');
 @import url('/Modules/pageMain/main-slogan/css/main-slogan.css');
 @import url('/Modules/pageMain/services/css/services.css');
+@import url('/Modules/pageMain/button/css/button.css');
+@import url('/Modules/pageMain/pricing-box/css/pricing-box.css');
+@import url('/Modules/pageMain/pricing-item/css/pricing-item.css');
+@import url('/Modules/pageMain/pricing-item-list/css/pricing-item-list.css');
+@import url('/Modules/pageMain/avatar/css/avatar.css');
+@import url('/Modules/pageMain/gallery/css/gallery.css');
+@import url('/Modules/pageMain/link/css/link.css');
+@import url('/Modules/pageMain/emoshion/css/emoshion.css');
 
 
 .body {
@@ -24,3 +32,7 @@
   margin: 0;
 }
 
+
+.text_acent {
+  color: var(--acent-color);
+}
